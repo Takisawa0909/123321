@@ -1,13 +1,36 @@
-<!DOCTYPE html><html><head>
-    <script src="p5.min.js"></script>
-    <script src="p5.dom.min.js"></script>
-    <script src="p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
+<!DOCTYPE html>
 
-  </head>
-  <body>
-    <script src="sketch.js"></script>
-  
+<!-- 給搜尋引擎看的 -->
+<html lang="zh-Hang-tw">
 
-</body></html>
+    <head>
+
+        <!-- 給瀏覽器看的 -->
+        <meta charset="utf-8"/>
+
+        <!-- 讓網頁自適應(RWD) 指定螢幕寬度為裝置寬度 -->
+        <meta name="viewport" content="width=device-width">
+
+
+        <title>p5.js 範例</title>
+
+
+        <!-- 在引用css 前  先讓所有 html 的盒子歸零 所以 必須先引用初始化的css 檔 -->
+        <link rel="stylesheet" href="css/normalize.css"/>
+
+        <!-- 引用在css 資料夾的 style.css 來控制 html 盒子的視覺 -->
+        <link rel="stylesheet" href="css/style.css"/>
+
+        <!-- 引用在js 資料夾的 sketch.js 來呈現 p5.js的內容 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+       
+        <script src="js/sketch.js"></script>
+    
+
+	</head>
+	<body>
+    <h1>跑 p5.js 的程式</h1>
+    <div id="abc">  </div>
+    <p>將 p5.js 放在 html 網頁中的範例</p>
+	</body>
+</html>
